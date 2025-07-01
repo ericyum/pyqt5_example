@@ -25,5 +25,6 @@ class MyApp(QWidget):
 
 if __name__ == '__main__':
    app = QApplication(sys.argv)
+   # 실제로 창을 띄우고 싶음. 그래서 ex라는 객체를 생성해서 창을 띄움.
    ex = MyApp()
    sys.exit(app.exec_())
