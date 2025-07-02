@@ -1,3 +1,4 @@
+## Ex 3-1. 창 띄우기.
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 
@@ -6,6 +7,7 @@ from PyQt5.QtWidgets import QApplication, QWidget
 # 부모 클래스를 상속 받아서 MyApp이라는 클래스를 생성
 class MyApp(QWidget):
 
+    # 초기화를 해야하는 변수들의 경우 __init__ 메서드 안에 넣어서 초기화한다.
     def __init__(self):
         # super는 부모 클래스를 가리킨다.
         super().__init__()
