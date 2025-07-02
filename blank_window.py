@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import QApplication, QWidget
 class MyApp(QWidget):
 
     # 초기화를 해야하는 변수들의 경우 __init__ 메서드 안에 넣어서 초기화한다.
+    # 예를 들어서 계산기를 켰는데 숫자나 부호가 적혀있으면 어색하다. 그래서 빈칸이 나오도록 '초기화'를 하는 것이 좋다. 그럴 때 해당 입력칸 부분을 '빈칸'으로 초기화한다.
     def __init__(self):
         # super는 부모 클래스를 가리킨다.
         super().__init__()
