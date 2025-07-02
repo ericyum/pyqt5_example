@@ -29,8 +29,8 @@
   <widget class="QScrollArea" name="scrollArea">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>200</y>
+     <x>140</x>
+     <y>180</y>
      <width>120</width>
      <height>80</height>
     </rect>
@@ -52,8 +52,8 @@
   <widget class="QScrollArea" name="scrollArea_2">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>200</y>
+     <x>340</x>
+     <y>180</y>
      <width>120</width>
      <height>80</height>
     </rect>
@@ -108,7 +108,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Wednesday</string>
+    <string>PushButton</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_5">
@@ -121,7 +121,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Thursday</string>
+    <string>PushButton</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_6">
@@ -134,7 +134,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Friday</string>
+    <string>PushButton</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_7">
@@ -147,7 +147,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Saturday</string>
+    <string>PushButton</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_8">
@@ -160,14 +160,14 @@
     </rect>
    </property>
    <property name="text">
-    <string>Sunday</string>
+    <string>PushButton</string>
    </property>
   </widget>
   <widget class="QScrollArea" name="scrollArea_3">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>510</y>
+     <x>620</x>
+     <y>20</y>
      <width>351</width>
      <height>161</height>
     </rect>
