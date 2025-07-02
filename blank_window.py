@@ -26,8 +26,12 @@ class MyApp(QWidget):
         self.show()
 
 
+# 이 스크립트가 직접 실행될 때만 아래 코드 블록이 실행됩니다.
 if __name__ == '__main__':
-   app = QApplication(sys.argv)
-   # 실제로 창을 띄우고 싶음. 그래서 ex라는 객체를 생성해서 창을 띄움.
-   ex = MyApp()
-   sys.exit(app.exec_())
+    # QApplication 객체 생성 (모든 PyQt 애플리케이션은 이 객체를 생성해야 합니다)
+    app = QApplication(sys.argv)
+    # MyApp 클래스의 인스턴스 생성 (우리가 만든 창 객체)
+    ex = MyApp()
+    # 애플리케이션을 실행하고 이벤트 루프에 진입합니다.
+    # 창이 닫히면 sys.exit()를 통해 프로그램이 종료됩니다.
+    sys.exit(app.exec_())
